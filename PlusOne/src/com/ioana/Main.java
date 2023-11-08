@@ -58,6 +58,7 @@ public class Main {
             digits[i] = 0;
         }
 
+        //// If we reach this point, it means we had carry all the way to the left.
         int[] result = new int[n + 1];
         result[0] = 1;
 
